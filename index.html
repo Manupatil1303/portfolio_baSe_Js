@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="book.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    integrity="sha512-Bm1KxJAgwj7OZd//5Pm2+L/01kiPj2yJNtI1Vq3dysrZuN7Z1+IvR/7Fb4w4sMCsBzmvlRfRlJj96SxSxLQ9Ng=="
+    crossorigin="anonymous" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+  <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+  <div class="back-grd">
+    <video autoplay muted loop id="myVideo">
+      <source src="wel2.mp4" type="video/mp4" />
+      Your browser does not support HTML5 video.
+    </video>
+    <div class="book">
+      <div class="page cover-front" onclick="movePage(this, 1)"></div>
+      <div class="page cover-front" onclick="movePage(this, 2)"></div>
+      <div class="page text-page" onclick="movePage(this, 3)">
+        <p>
+        <h1 class="intro">&#10055 INTROCTION &#10055</h1>
+        </p>
+        <div class="social-list">
+          <a href="https://www.facebook.com" target="_blank">
+            <i class='bx bxl-facebook-square fb'></i>
+          </a>
+
+          <a href="https://github.com" target="_blank">
+            <i class='bx bxl-github git'></i>
+          </a>
+          <a href="https://www.linkedin.com/in/manisha-wankhade" target="_blank">
+            <i class='bx bxl-linkedin-square fb'></i>
+          </a>
+        </div>
+        <div class="bg-img avt" style="background-image: url(src/My_img/Myproject-1.png);">
+          <br>
+
+        </div>
+        <br>
+
+        <br>
+        <div class="name">
+          <p>
+            <span> Name:</span>
+            <firstletter>M</firstletter>anisha
+          <h5 class="surname">Wankhade</h5>
+
+          </p>
+
+        </div>
+        <div class="age">
+          <p>
+            <span> Birth-date:</span> 13 march 1998
+          </p>
+        </div>
+
+        <div class="hobby">
+          <p>
+            <span> Hobby:</span>coding and learn more about programming .
+          </p>
+
+        </div>
+        <br />
+        <p class="introduce">
+          Hello, I'm <span class="txt-header">Manisha Wankhade</span>. I am <span class="txt-header">Web
+            Developer</span>
+          currently pursuing my M.A degree. I completed my B.Sc degree from Narasamma College in
+          Amravati. I have a keen interest in learning new techniques and exploring computer coding.
+        </p>
+        <div class="pnum">
+          <div class="pnum1">
+            page:1
+          </div>
+        </div>
+
+      </div>
+      <div class="page text-page" onclick="movePage(this, 4)">
+        <p>
+        <h1 class="intro">&#10055 EDUCATION &#10055</h1>
+        </p>
+
+        <h4 class="state-title">&#x1F9E3 My Timeline &#x1F9E3</h4>
+
+        <div class="timeline">
+          <div class="timeline-item">
+            <p class="tl-duration">2014 </p>
+            <div class="tl-icon">
+              <i class="fas fa-school"></i>
+            </div>
+
+
+            <h5>10<sup>th</sup><br><span> (Secondary School Certificate) </span></h5>
+
+            <div class="mark">
+              <p class="m1">
+                69.60%
+              </p>
+            </div>
+
+          </div>
+          <br>
+
+          <div class="timeline-item">
+            <p class="tl-duration">2016</p>
+            <div class="tl-icon">
+              <i class="fas fa-university"></i>
+            </div>
+
+            <h5>12<sup>th</sup><br><span> (Higher Secondary School Certificate).</span></h5>
+            <div class="mark">
+              <p class="m1">
+                54.60%
+              </p>
+            </div>
+          </div>
+          <br />
+
+          <div class="timeline-item">
+            <p class="tl-duration">2019</p>
+            <div class="tl-icon">
+              <i class="fas fa-university"></i>
+            </div>
+
+            <h5>Costomer Care Executive<br><span> PMKVY(Certificate)</span></h5>
+            <br/>
+            
+
+          </div>
+          <div class="t1-msg">
+            Has Successfully cleared the assessment for the job <br/>
+            role of Customer Care Executive(Relationship Certre).
+          </div>
+        </div>
+        <div class="pnum">
+          <div class="pnum2">
+            page:2
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="page text-page" onclick="movePage(this, 5)">
+   
+
+        <div class="timeline">
+          <div class="timeline-item">
+
+            <p class="tl-duration">2020</p>
+            <div class="tl-icon">
+              <i class="fas fa-user-graduate"></i>
+            </div>
+
+
+            <h5>B.sci.Degree<br><span> Sgbau University</span></h5>
+
+           
+            <div class="t3-msg">
+              Has Successfully cleared the assessment for the job <br/>
+              role of Customer Care Executive(Relationship Certre).
+            </div>
+          </div>
+          <br>
+<br><br>
+<br>
+          <div class="timeline-item">
+            <p class="tl-duration">2020</p>
+            <div class="tl-icon">
+              <i class="fas fa-laptop-house"></i>
+            </div>
+
+            <h5>ITI (COPA)<br><span> Diploma Government</span></h5>
+            <div class="mark">
+              <p class="m1">
+                83.60%
+              </p>
+            </div>
+          
+            <div class="t3-msg">
+              The ITI COPA is the Best ITI Course related to computers including,software,hardware And
+                        Programming Language(One-year Course).
+            </div>
+          </div>
+          <br />
+          <br/>
+          
+          </div>
+          
+        <div class="pnum">
+          <div class="pnum3">
+            page:3
+          </div>
+       
+        </div>
+
+
+      </div>
+      <div class="page text-page" onclick="movePage(this, 6)">
+        <div class="timeline">
+          <div class="timeline-item">
+            <p class="tl-duration">2021</p>
+            <div class="tl-icon">
+              <i class="fas fa-laptop-code"></i>
+            </div>
+
+
+            <h5> Computer Programming (DCP)<br><span> - Diploma Certificate</span></h5>
+          </div>
+        
+        </div>
+        <div class="t4-msg">
+          The course mainly focusses in
+          Analysis and Design of Algorithm 
+          And their implementation by serveral Languages such
+          as:c,cpp,core java and Adv.java.
+        </div>
+       <div class="img-background">
+<div class="bkg1">
+  <img src="src/My_img/7602162-removebg-preview.png" alt="Paris"  >
+</div>
+
+<div class="bkg2">
+  <img src="src/My_img/Bear_and_Graduation-removebg.png" alt="Paris" width="100" height="100">
+</div>
+       </div>
+
+
+
+       <div class="pnum">
+        <div class="pnum4">
+          page:4
+        </div>
+       </div>
+        </div>
+      <div class="page text-page" onclick="movePage(this, 7)">
+        <p>
+          <h1 class="intro">&#10055 PROJECT'S &#10055</h1>
+          </p>
+          <section id="conference-timeline">
+            <div class="timeline-start">LANGUAGE OF PROJECT</div>
+            <div class="conference-center-line"></div>
+            <div class="conference-timeline-content">
+                <!-- Article -->
+                <div class="timeline-article">
+                    <div class="content-left-container">
+                        <div class="content-left col-md-12">
+                            <div class="col-md-12 date-details">
+                                <div class="col-md-6 no-padding"><h3>HTML</h3></div>
+                                <div class="col-md-6 no-padding"></div>
+                            </div>
+                            <div class="col-md-12 details-content fuel-image">
+                               
+                                <div class="row">
+                                    <div class="col-md-6"></div>
+                                    <div class="col-md-6"></div>
+                                </div>
+                            </div>
+                        </div>
+    
+                    </div>
+                    <div class="content-right-container">
+                        <div class="content-right col-md-12">
+                            <div class="col-md-12 date-details">
+                                <div class="col-md-6 no-padding"><h3>CSS</h3></div>
+                                <div class="col-md-6 no-padding"></div>
+                            </div>
+                            <div class="col-md-12 details-content fuelsetting-image">
+                              
+                                <div class="row">
+                                    <div class="col-md-5"></div>
+                                    <div class="col-md-7 no-padding"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="meta-date"></div>
+                </div>
+    
+            </div>
+    
+            <div class="timeline-article">
+                <div class="content-left-container">
+                    <div class="content-left col-md-12">
+                        <div class="col-md-12 date-details">
+                            <div class="col-md-6 no-padding"></div>
+                            <div class="col-md-6 no-padding"><h3>JAVASCRIPT</h3></div>
+                        </div>
+                        <div class="col-md-12 details-content fuel-image">
+                            <div class="row">
+                                <div class="col-md-6"></div>
+                                <div class="col-md-6"></div>
+                            </div>
+                         
+                        </div>
+                    </div>
+                </div>
+                <div class="content-right-container">
+                    <!-- <div class="content-right">
+    
+    
+            </div> -->
+                    <div class="meta-date">
+    
+                    </div>
+                </div>
+    
+                <div class="timeline-article">
+                    <div class="content-left-container">
+                        <!-- <div class="content-left">
+                <p>When I orbited the Earth in a spaceship, I saw for the first time how beautiful our planet is. Mankind, let us preserve and increase this beauty, and not destroy it! </p>
+              </div> -->
+    
+                    </div>
+                    <div class="content-right-container">
+                        <div class="content-right col-md-12">
+                            <div class="col-md-12 date-details">
+                                <div class="col-md-6 no-padding"><h3>REACT JS</h3></div>
+                                <div class="col-md-6 no-padding"></div>
+                            </div>
+                            <div class="col-md-12 details-content fuelsetting-image">
+                                <div class="row">
+                                    <div class="col-md-5"></div>
+                                    <div class="col-md-7 no-padding"></div>
+                                </div>
+                              
+                            </div>
+                        </div>
+    
+                    </div>
+                    <div class="meta-date">
+    
+                    </div>
+                </div>
+            </div>
+            <div class="timeline-end"></div>
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="page text-page" onclick="movePage(this, 8)">
+        <h4 class="state-title">&#x1F9E3 1<sup>st</sup>Project &#x1F9E3</h4>
+      </div>
+      <div class="page text-page" onclick="movePage(this, 9)">
+        <p>the uproar; the carriages, motor cars, omnibuses, vans, sandwich men shuffling and swinging; brass bands;
+          barrel organs; in the triumph and the jingle and the strange high singing of some aeroplane overhead was what
+          she loved; life; London; this moment of June.</p>
+        <p>For it was the middle of June. The War was over, except for some one like Mrs. Foxcroft at the Embassy last
+          night eating her heart out because that nice boy was killed and now the old Manor House must go to a cousin;
+          or Lady Bexborough who opened a bazaar, they said, with the telegram in her hand, John, her favourite, killed;
+          but it was over; thank Heaven--over. It was June. The King and Queen were at the Palace. And everywhere,
+          though it was still so early, there was a beating, a stirring of galloping ponies, tapping of cricket bats;
+          Lords, Ascot, Ranelagh and all the rest of it; wrapped in the soft mesh of the grey-blue morning air, which,
+          as the day wore on, would unwind them, and set down on their lawns and pitches the bouncing ponies, whose
+          forefeet just struck the ground and up they sprung, the whirling young men, and laughing girls in their
+          transparent muslins who, even now, after dancing all night, were taking their absurd woolly dogs for a run;
+          and even now, at this hour, discreet old dowagers were shooting out in their motor cars on errands of mystery;
+          and the shopkeepers were fidgeting in their windows with their paste and diamonds, their lovely old sea-green
+          brooches in</p>
+      </div>
+      <div class="page text-page" onclick="movePage(this, 10)">
+        <p>eighteenth-century settings to tempt Americans (but one must economise, not buy things rashly for Elizabeth),
+          and she, too, loving it as she did with an absurd and faithful passion, being part of it, since her people
+          were courtiers once in the time of the Georges, she, too, was going that very night to kindle and illuminate;
+          to give her party. But how strange, on entering the Park, the silence; the mist; the hum; the slow-swimming
+          happy ducks; the pouched birds waddling; and who should be coming along with his back against the Government
+          buildings, most appropriately, carrying a despatch box stamped with the Royal Arms, who but Hugh Whitbread;
+          her old friend Hugh--the admirable Hugh!</p>
+        <p>"Good-morning to you, Clarissa!" said Hugh, rather extravagantly, for they had known each other as children.
+          "Where are you off to?"</p>
+        <p>"I love walking in London," said Mrs. Dalloway. "Really it's better than walking in the country."</p>
+      </div>
+      <div class="page text-page" onclick="movePage(this, 11)">
+        <p>the uproar; the carriages, motor cars, omnibuses, vans, sandwich men shuffling and swinging; brass bands;
+          barrel organs; in the triumph and the jingle and the strange high singing of some aeroplane overhead was what
+          she loved; life; London; this moment of June.</p>
+        <p>For it was the middle of June. The War was over, except for some one like Mrs. Foxcroft at the Embassy last
+          night eating her heart out because that nice boy was killed and now the old Manor House must go to a cousin;
+          or Lady Bexborough who opened a bazaar, they said, with the telegram in her hand, John, her favourite, killed;
+          but it was over; thank Heaven--over. It was June. The King and Queen were at the Palace. And everywhere,
+          though it was still so early, there was a beating, a stirring of galloping ponies, tapping of cricket bats;
+          Lords, Ascot, Ranelagh and all the rest of it; wrapped in the soft mesh of the grey-blue morning air, which,
+          as the day wore on, would unwind them, and set down on their lawns and pitches the bouncing ponies, whose
+          forefeet just struck the ground and up they sprung, the whirling young men, and laughing girls in their
+          transparent muslins who, even now, after dancing all night, were taking their absurd woolly dogs for a run;
+          and even now, at this hour, discreet old dowagers were shooting out in their motor cars on errands of mystery;
+          and the shopkeepers were fidgeting in their windows with their paste and diamonds, their lovely old sea-green
+          brooches in</p>
+      </div>
+      <div class="page text-page" onclick="movePage(this, 12)">
+        <p>eighteenth-century settings to tempt Americans (but one must economise, not buy things rashly for Elizabeth),
+          and she, too, loving it as she did with an absurd and faithful passion, being part of it, since her people
+          were courtiers once in the time of the Georges, she, too, was going that very night to kindle and illuminate;
+          to give her party. But how strange, on entering the Park, the silence; the mist; the hum; the slow-swimming
+          happy ducks; the pouched birds waddling; and who should be coming along with his back against the Government
+          buildings, most appropriately, carrying a despatch box stamped with the Royal Arms, who but Hugh Whitbread;
+          her old friend Hugh--the admirable Hugh!</p>
+        <p>"Good-morning to you, Clarissa!" said Hugh, rather extravagantly, for they had known each other as children.
+          "Where are you off to?"</p>
+        <p>"I love walking in London," said Mrs. Dalloway. "Really it's better than walking in the country."</p>
+      </div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+      <script src="book.js"></script>
+</body>
+
+</html>
